@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>  
+  <link href="assets/css/styles.css" rel="stylesheet" type="text/css"/> 
+<link href="assets/css/stylessss.css" rel="stylesheet" type="text/css"/> 
+  <script src="assets/js/lib/jquery.min.js"></script>
+  <script src="assets/js/lib/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Girls in Technology" src="assets/img/icon.png">
+
+          </a>
+          
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        
+            </ul>
+            
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <style>
+  #vlightbox { width:680px;height:355px; }
+2
+#vlightbox span{ display:block; }
+3
+#vlightbox a{ display:block; float:left;width:310px; height:155px; margin:3px 1px; padding:6px; border:solid 1px #b8b8b8;
+4
+background-color:#f4f5f5;opacity:0.87; }
+5
+#vlightbox a img{ display:block; border:none; margin:0px; }
+6
+#vlightbox a:hover{ opacity:1; }
+7
+#vlightbox a.vlightbox_hidden{ display:none; }
+8
+#vlightbox a img { border:medium none; margin:0 auto;width:310px; height:155px; 
+  </style>
+<div id="vlightbox">
+02
+    <a id="firstImage" title="image 1" href="assets/img/gallery2/1.jpg" class="vlightbox"><img alt="image 1" src="assets/img/gallery2/1.jpg" /></a>
+03
+    <a title="image 2" href="" class="vlightbox"><img alt="image 2" src="assets/img/gallery2/a.jpg" /></a>
+04
+    <a title="image 3" href="" class="vlightbox"><img alt="image 3" src="assets/img/gallery2/b.jpg" /></a>
+05
+    <a title="image 4" href="#" class="vlightbox"><img alt="image 4" src="assets/img/gallery2/c.jpg" /></a>
+06
+    <a title="image 5" href="#" class="vlightbox vlightbox_hidden"><img alt="image 5" src="assets/img/galllery2/d.jpg" /></a>
+07
+</div>
+08
+<script type="text/javascript">
+09
+    var $VisualLightBoxParams$ = {autoPlay:true,borderSize:21,enableSlideshow:true,overlayOpacity:0.4,startZoom:true};
+10
+</script>
+11
+<script type="text/javascript" src="visuallightbox.js"></script>
+Here are few notes when we filling array of objects:
